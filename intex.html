@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ur">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>میرا اردو بلاگ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>میرا اردو بلاگ</h1>
+            <p>نئے خیالات کا اشتراک کریں اور اردو میں بلاگ پوسٹ کریں</p>
+        </header>
+
+        <main>
+            <section class="blog-form">
+                <h2>نیا بلاگ شامل کریں</h2>
+                <form id="blog-form">
+                    <div class="form-group">
+                        <label for="title">عنوان:</label>
+                        <input type="text" id="title" placeholder="بلاگ کا عنوان درج کریں" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="content">مواد:</label>
+                        <textarea id="content" placeholder="بلاگ مواد لکھیں" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">بلاگ اپلوڈ کریں</button>
+                </form>
+            </section>
+
+            <section class="blog-list">
+                <h2>بلاگ فہرست</h2>
+                <ul id="blog-list"></ul>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 اردو بلاگ | تیار کردہ آپ کے لئے</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
